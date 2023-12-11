@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+      "responses": ["Hello! Welcome to our Healthcare Chatbot.", "Hey! How can I assist you with your health today?", "What can I do for you in terms of healthcare?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "name", "what's your name", "who are you", "what should I call you"],
+      "responses": ["You can call me HealthBot", "I'm HealthBot, your virtual healthcare assistant", "I'm HealthBot, I'm here to help you with any healthcare queries."]
+    },
+    {
+      "tag": "topics",
+      "patterns": ["topics", "information", "what can you tell me?"],
+      "responses": ["Here is the list of things i can do: Appointment, MedicalAdvice, HospitalLocation, Emergency, Sickness-Info, Covid-Info, TB-Info, HIVI-nfo, STI-Info (Please picky any one from the list"]
+    },
+
+    {
+      "tag": "healthIssues",
+      "patterns": ["I'm not feeling well", "I have a health issue", "health problems"],
+      "responses": ["I'm sorry to hear that. Can you please provide more details about your symptoms? I'll do my best to assist you."]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["How can I schedule an appointment?", "Book an appointment", "appointment availability"],
+      "responses": ["Sure, I can help you schedule a healthcare appointment. Please provide your preferred date and time."]
+    },
+    {
+      "tag": "medicalAdvice",
+      "patterns": ["Can you provide medical advice?", "I need health advice", "What should I do for a headache?"],
+      "responses": ["I can offer general health tips, but for personalized advice, it's best to consult with a healthcare professional. If your symptoms persist, consider seeing a doctor."]
+    },
+    {
+      "tag": "hospitalLocation",
+      "patterns": ["where is the nearest hospital?", "hospital location", "find a hospital"],
+      "responses": ["The nearest hospital is located at [Provide the address]. If you need further assistance, feel free to ask."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["I have a medical emergency", "emergency help", "urgent medical assistance"],
+      "responses": ["I'm sorry to hear that. Please call emergency services immediately at 10177."]
+    },
+    {
+      "tag": "sicknessInfo",
+      "patterns": ["Tell me about common sicknesses", "What are some common illnesses?", "Sickness and cures"],
+      "responses": ["Sure, here are some common sicknesses and their general cures:\n\n1. **Cold/Flu:** Rest, stay hydrated, and take over-the-counter cold medications.\n2. **Headache:** Drink plenty of water, rest, and consider taking pain relievers.\n3. **Stomachache:** Avoid spicy or greasy foods, drink ginger tea, and take antacids if needed.\n4. **Fever:** Stay hydrated, rest, and take fever-reducing medications like acetaminophen.\n\nRemember, these are general suggestions. If symptoms persist, consult with a healthcare professional."]
+    },
+    {
+      "tag": "fluInfo",
+      "patterns": ["Tell me about the flu", "Flu symptoms", "Influenza"],
+      "responses": ["The flu, or influenza, is a respiratory illness caused by influenza viruses. Common symptoms include fever, cough, sore throat, body aches, and fatigue. It's essential to rest, stay hydrated, and consult a doctor if symptoms worsen."]
+    },
+    {
+      "tag": "covidInfo",
+      "patterns": ["Tell me about COVID-19", "COVID symptoms", "Coronavirus"],
+      "responses": ["COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. Common symptoms include fever, cough, shortness of breath, and loss of taste or smell. Practice good hygiene, wear masks, and seek medical advice if you suspect COVID-19."]
+    },
+    {
+      "tag": "tbInfo",
+      "patterns": ["Tell me about Tuberculosis", "TB symptoms", "TB treatment"],
+      "responses": ["Tuberculosis (TB) is a bacterial infection affecting the lungs. Symptoms include cough, chest pain, and fatigue. TB is treatable with antibiotics, and it's crucial to complete the prescribed medication regimen."]
+    },
+    {
+      "tag": "hivInfo",
+      "patterns": ["Tell me about HIV", "HIV symptoms", "HIV transmission"],
+      "responses": ["Human Immunodeficiency Virus (HIV) weakens the immune system. Early symptoms may include fever, fatigue, and swollen glands. HIV is primarily transmitted through unprotected sex or sharing needles. Consult a healthcare professional for testing and treatment."]
+    },
+    {
+      "tag": "stiInfo",
+      "patterns": ["Tell me about sexually transmitted infections", "STI symptoms", "Safe sex practices"],
+      "responses": ["Sexually Transmitted Infections (STIs) include diseases like chlamydia, gonorrhea, and syphilis. Symptoms vary but may include pain during urination, genital sores, or unusual discharge. Practice safe sex, get regular screenings, and consult a healthcare provider if concerned."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good Day", "bye", "see ya"],
+      "responses": ["Take care of your health. Goodbye!", "If you have more health-related questions, feel free to return. Goodbye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["You're welcome! If you have more health questions, feel free to ask.", "Happy to help with your healthcare queries!"]
+    }
+  ]
+}
