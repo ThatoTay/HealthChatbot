@@ -13,7 +13,7 @@
     {
       "tag": "topics",
       "patterns": ["topics", "information", "what can you tell me?"],
-      "responses": ["Here is the list of things i can do: Appointment, MedicalAdvice, HospitalLocation, Emergency, Sickness-Info, Covid-Info, TB-Info, HIVI-nfo, STI-Info (Please picky any one from the list"]
+      "responses": ["Here is the list of things i can do: Appointment, MedicalAdvice, HospitalLocation, Emergency, SicknessInfo, CovidInfo, TBInfo, HIVInfo, STIInfo (Please picky any one from the list"]
     },
 
     {
