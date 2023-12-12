@@ -35,6 +35,7 @@ print("|============================== Feel Free ============================|")
 print("|================================== To ===============================|")
 print("|================ Ask any query about your Health ====================|")
 print("|==================== WE WILL TRY TO ASSIST YOU ======================|")
+print("|=========== Type "topics/infomation" for more infor =================|")
 
 # Main loop
 while True:
